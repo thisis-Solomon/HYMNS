@@ -9,9 +9,9 @@ const useHomeHeader = () => {
   
   //fn() for bottomDialog
   const [isDialogVisible, setIsDialogVisisble] = useState(false);
+  const showDialog = () => setIsDialogVisisble(!isDialogVisible);
   
   React.useLayoutEffect(() => {
-    const showDialog = () => setIsDialogVisisble(!isDialogVisible);
 
     navigation.setOptions({
       headerTitle: 'Home',
@@ -19,7 +19,7 @@ const useHomeHeader = () => {
     });
   }, [navigation]);
 
-  return [isChichewa, isDialogVisible];
+  return [isChichewa, isDialogVisible, showDialog];
 };
 
 export default useHomeHeader;

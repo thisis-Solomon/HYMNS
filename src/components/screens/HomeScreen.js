@@ -10,7 +10,7 @@ function HomeScreen() {
   const [song, setSong] = React.useState(English);
 
   // imported states and functions from customHooks
-  const [isChichewa, isDialogVisible] = useHomeHeader();
+  const [isChichewa, isDialogVisible, showDialog] = useHomeHeader();
 
   // The vision to be displayed
   const display = isChichewa ? (
@@ -44,7 +44,7 @@ function HomeScreen() {
   return (
     <View style={{paddingVertical: 10}}>
       {display} 
-      <DialogSetting visible = {isDialogVisible}/>
+      <DialogSetting visible = {isDialogVisible} dismiss = {showDialog}/>
     </View>
   );
 }
