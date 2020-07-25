@@ -4,6 +4,7 @@ import Chichewa from '../hymnsItem/Chichewa';
 import English from '../hymnsItem/English';
 import useHomeHeader from '../customHooks/useHomeHeader';
 import DialogSetting from '../header/DialogSetting';
+import {Divider} from 'react-native-paper';
 
 function HomeScreen() {
   const [nyimbo, setNyimbo] = React.useState(Chichewa);
@@ -20,11 +21,7 @@ function HomeScreen() {
       renderItem={({item}) => (
         <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
       )}
-      ItemSeparatorComponent={() => (
-        <View
-          style={{backgroundColor: '#000', height: 1, marginVertical: 10}}
-        />
-      )}
+      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10, }} />}
     />
   ) : (
     <FlatList
@@ -33,18 +30,14 @@ function HomeScreen() {
       renderItem={({item}) => (
         <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
       )}
-      ItemSeparatorComponent={() => (
-        <View
-          style={{backgroundColor: '#000', height: 1, marginVertical: 10}}
-        />
-      )}
+      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10, backgroundColor: '#000'}} />}
     />
   );
 
   return (
     <View style={{paddingVertical: 10}}>
-      {display} 
-      <DialogSetting visible = {isDialogVisible} dismiss = {showDialog}/>
+      {display}
+      <DialogSetting visible={isDialogVisible} dismiss={showDialog} />
     </View>
   );
 }
