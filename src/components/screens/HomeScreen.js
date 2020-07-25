@@ -3,13 +3,14 @@ import {View, Text, FlatList} from 'react-native';
 import Chichewa from '../hymnsItem/Chichewa';
 import English from '../hymnsItem/English';
 import useHomeHeader from '../customHooks/useHomeHeader';
+import DialogSetting from '../header/DialogSetting';
 
 function HomeScreen() {
   const [nyimbo, setNyimbo] = React.useState(Chichewa);
   const [song, setSong] = React.useState(English);
 
   // imported states and functions from customHooks
-  const isChichewa = useHomeHeader();
+  const [isChichewa, isDialogVisible] = useHomeHeader();
 
   // The vision to be displayed
   const display = isChichewa ? (
@@ -40,6 +41,11 @@ function HomeScreen() {
     />
   );
 
-  return <View>{display}</View>;
+  return (
+    <View style={{paddingVertical: 10}}>
+      {display} 
+      <DialogSetting visible = {isDialogVisible}/>
+    </View>
+  );
 }
 export default HomeScreen;
