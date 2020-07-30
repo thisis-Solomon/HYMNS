@@ -1,42 +1,45 @@
 import React from 'react';
 import {View, Text, FlatList} from 'react-native';
-import Chichewa from '../hymnsItem/Chichewa';
-import English from '../hymnsItem/English';
 import useHomeHeader from '../customHooks/useHomeHeader';
 import DialogSetting from '../header/DialogSetting';
 import {Divider} from 'react-native-paper';
 
 function HomeScreen() {
-  const [nyimbo, setNyimbo] = React.useState(Chichewa);
-  const [song, setSong] = React.useState(English);
-
   // imported states and functions from customHooks
-  const [isChichewa, isDialogVisible, showDialog] = useHomeHeader();
+  const [
+    isChichewa,
+    isDialogVisible,
+    showDialog,
+    nyimboQuery,
+    songQuery,
+  ] = useHomeHeader();
 
   // The vision to be displayed
   const display = isChichewa ? (
     <FlatList
-      data={nyimbo}
+      data={nyimboQuery}
       keyExtractor={(item) => item.name}
       renderItem={({item}) => (
         <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
       )}
-      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10, }} />}
+      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10}} />}
     />
   ) : (
     <FlatList
-      data={song}
+      data={songQuery}
       keyExtractor={(item) => item.name}
       renderItem={({item}) => (
         <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
       )}
-      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10, backgroundColor: '#000'}} />}
+      ItemSeparatorComponent={() => (
+        <Divider style={{marginVertical: 10, backgroundColor: '#000'}} />
+      )}
     />
   );
 
   return (
     <View style={{paddingVertical: 10}}>
-      {display}
+      <View>{display}</View>
       <DialogSetting visible={isDialogVisible} dismiss={showDialog} />
     </View>
   );

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Appbar, Searchbar} from 'react-native-paper';
 import {View} from 'react-native';
 
-export default function MainTopHeader({openDialog}) {
+export default function MainTopHeader({openDialog, onSearch}) {
   const MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';
 
   const [isSearchBarVisible, setIsSearchBarVisible] = useState(false);
@@ -18,8 +18,7 @@ export default function MainTopHeader({openDialog}) {
       placeholder="Eg. 384"
       maxLength = {3}
       keyboardType = 'number-pad'
-      // onChangeText={onChangeSearch}
-      // value={searchQuery}
+      onChangeText={onSearch}
     />
   );
 
