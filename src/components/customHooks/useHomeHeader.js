@@ -3,6 +3,7 @@ import {useNavigation} from '@react-navigation/native';
 import MainTopHeader from '../header/MainTopHeader';
 import Chichewa from '../hymnsItem/Chichewa';
 import English from '../hymnsItem/English';
+import {Title} from 'react-native-paper';
 
 const useHomeHeader = () => {
   const navigation = useNavigation();
@@ -21,8 +22,12 @@ const useHomeHeader = () => {
     setIsChiChewa(!isChichewa);
   };
 
+  // card title and hearder title
+  let hearderTitle;
   let whichVision;
-  isChichewa ? (whichVision = 'English') : (whichVision = 'Chichewa');
+  isChichewa
+    ? ((whichVision = 'English'), (hearderTitle = 'NYIMBO ZA MULUNGU'))
+    : ((whichVision = 'Chichewa'), (hearderTitle = 'SONGS OF GOD'));
 
   //fn() for bottomDialog
   const [isDialogVisible, setIsDialogVisisble] = useState(true);
@@ -48,12 +53,12 @@ const useHomeHeader = () => {
 
   React.useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: 'Home',
+      headerTitle: () => <Title>{hearderTitle}</Title>,
       headerRight: () => (
         <MainTopHeader openDialog={showDialog} onSearch={searchItem} />
       ),
     });
-  }, [navigation]);
+  }, [navigation, hearderTitle]);
 
   return [
     isChichewa,
