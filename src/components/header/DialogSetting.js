@@ -10,7 +10,7 @@ import {
   Colors,
 } from 'react-native-paper';
 
-const DialogSettings = ({visible, dismiss}) => {
+const DialogSettings = ({visible, dismiss, selectVision, vision}) => {
   return (
     <View>
       <Portal>
@@ -19,9 +19,9 @@ const DialogSettings = ({visible, dismiss}) => {
             {/*the hymn selection */}
             <Card
               style={styles.itemsCentered}
-              onPress={() => console.log('pressed')}>
+              onPress={selectVision}>
               <Card.Content>
-                <Title>Chichewa</Title>
+  <Title>{vision}</Title>
               </Card.Content>
             </Card>
 

@@ -15,12 +15,19 @@ const useHomeHeader = () => {
   const [nyimboQuery, setNyimboQuery] = useState(Chichewa);
   const [songQuery, setSongQuery] = useState(English);
 
+  // state of which vision and fn()
   const [isChichewa, setIsChiChewa] = useState(false);
+  const switchVision = () => {
+    setIsChiChewa(!isChichewa);
+  };
+
+  let whichVision;
+  isChichewa ? (whichVision = 'English') : (whichVision = 'Chichewa');
 
   //fn() for bottomDialog
   const [isDialogVisible, setIsDialogVisisble] = useState(true);
   const showDialog = () => {
-    setIsDialogVisisble(isDialogVisible => !isDialogVisible);
+    setIsDialogVisisble((isDialogVisible) => !isDialogVisible);
     console.log(isDialogVisible);
   };
 
@@ -48,7 +55,15 @@ const useHomeHeader = () => {
     });
   }, [navigation]);
 
-  return [isChichewa, isDialogVisible, showDialog, nyimboQuery, songQuery];
+  return [
+    isChichewa,
+    isDialogVisible,
+    showDialog,
+    nyimboQuery,
+    songQuery,
+    switchVision,
+    whichVision,
+  ];
 };
 
 export default useHomeHeader;

@@ -12,6 +12,8 @@ function HomeScreen() {
     showDialog,
     nyimboQuery,
     songQuery,
+    switchVision,
+    whichVision,
   ] = useHomeHeader();
 
   // The vision to be displayed
@@ -40,7 +42,12 @@ function HomeScreen() {
   return (
     <View style={{paddingVertical: 10}}>
       <View>{display}</View>
-      <DialogSetting visible={isDialogVisible} dismiss={showDialog} />
+      <DialogSetting
+        visible={isDialogVisible}
+        dismiss={showDialog}
+        selectVision={switchVision}
+        vision={whichVision}
+      />
     </View>
   );
 }
