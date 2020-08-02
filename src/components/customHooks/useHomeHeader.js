@@ -18,8 +18,11 @@ const useHomeHeader = () => {
   const [isChichewa, setIsChiChewa] = useState(false);
 
   //fn() for bottomDialog
-  const [isDialogVisible, setIsDialogVisisble] = useState(false);
-  const showDialog = () => setIsDialogVisisble(!isDialogVisible);
+  const [isDialogVisible, setIsDialogVisisble] = useState(true);
+  const showDialog = () => {
+    setIsDialogVisisble(isDialogVisible => !isDialogVisible);
+    console.log(isDialogVisible);
+  };
 
   // search fn()
   const searchItem = (queryItem) => {

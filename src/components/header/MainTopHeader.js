@@ -16,16 +16,16 @@ export default function MainTopHeader({openDialog, onSearch}) {
     <Searchbar
       style={{height: 38, alignSelf: 'center', borderRadius: 20}}
       placeholder="Eg. 384"
-      maxLength = {3}
-      keyboardType = 'number-pad'
+      maxLength={3}
+      keyboardType="number-pad"
       onChangeText={onSearch}
     />
   );
 
   return (
-    <View style={{flexDirection: 'row'}}>
+    <View style={{flexDirection: 'row', borderWidth: 1}}>
       {SearchBar}
-      <Appbar.Action icon={MORE_ICON} onPress={openDialog} />
+      <Appbar.Action icon={MORE_ICON} onPress={openDialog} style={{borderWidth:1}}/>
     </View>
   );
 }
