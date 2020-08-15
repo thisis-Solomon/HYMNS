@@ -1,8 +1,9 @@
 import React from 'react';
-import {View, Text, FlatList} from 'react-native';
+import {View, Text, FlatList, StyleSheet} from 'react-native';
 import useHomeHeader from '../customHooks/useHomeHeader';
 import DialogSetting from '../header/DialogSetting';
 import {Divider} from 'react-native-paper';
+import {TouchableOpacity} from 'react-native-gesture-handler';
 
 function HomeScreen() {
   // imported states and functions from customHooks
@@ -14,6 +15,7 @@ function HomeScreen() {
     songQuery,
     switchVision,
     whichVision,
+    handleSelectedItem,
   ] = useHomeHeader();
 
   // The vision to be displayed
@@ -22,25 +24,31 @@ function HomeScreen() {
       data={nyimboQuery}
       keyExtractor={(item) => item.name}
       renderItem={({item}) => (
-        <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
+        <TouchableOpacity onPress={() => handleSelectedItem(item)}>
+          <Text style={styles.textStyle}>{item.name}</Text>
+        </TouchableOpacity>
       )}
-      ItemSeparatorComponent={() => <Divider style={{marginVertical: 10}} />}
+      ItemSeparatorComponent={() => (
+        <Divider style={styles.ItemSeparatorHeight} />
+      )}
     />
   ) : (
     <FlatList
       data={songQuery}
       keyExtractor={(item) => item.name}
       renderItem={({item}) => (
-        <Text style={{fontSize: 18, marginHorizontal: 15}}>{item.name}</Text>
+        <TouchableOpacity onPress={() => handleSelectedItem(item)}>
+          <Text style={styles.textStyle}>{item.name}</Text>
+        </TouchableOpacity>
       )}
       ItemSeparatorComponent={() => (
-        <Divider style={{marginVertical: 10, backgroundColor: '#000'}} />
+        <Divider style={styles.ItemSeparatorHeight} />
       )}
     />
   );
 
   return (
-    <View style={{paddingVertical: 10}}>
+    <View style={styles.start}>
       <View>{display}</View>
       <DialogSetting
         visible={isDialogVisible}
@@ -51,4 +59,11 @@ function HomeScreen() {
     </View>
   );
 }
+
 export default HomeScreen;
+
+const styles = StyleSheet.create({
+  textStyle: {fontSize: 18, marginHorizontal: 15},
+  ItemSeparatorHeight: {marginVertical: 10},
+  start: {paddingVertical: 13},
+});

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useCallback} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import MainTopHeader from '../header/MainTopHeader';
 import Chichewa from '../hymnsItem/Chichewa';
@@ -9,8 +9,8 @@ const useHomeHeader = () => {
   const navigation = useNavigation();
 
   //imported and exported
-  const [nyimbo, setNyimbo] = useState(Chichewa);
-  const [song, setSong] = useState(English);
+  const [nyimbo] = useState(Chichewa);
+  const [song] = useState(English);
 
   // For search display
   const [nyimboQuery, setNyimboQuery] = useState(Chichewa);
@@ -30,25 +30,39 @@ const useHomeHeader = () => {
     : ((whichVision = 'Chichewa'), (hearderTitle = 'SONGS OF GOD'));
 
   //fn() for bottomDialog
-  const [isDialogVisible, setIsDialogVisisble] = useState(true);
-  const showDialog = () => {
+  const [isDialogVisible, setIsDialogVisisble] = useState(false);
+  const showDialog = useCallback(() => {
     setIsDialogVisisble((isDialogVisible) => !isDialogVisible);
     console.log(isDialogVisible);
-  };
+  }, [isDialogVisible]);
 
   // search fn()
-  const searchItem = (queryItem) => {
+  const searchItem = useCallback(
+    (queryItem) => {
+      isChichewa
+        ? setNyimboQuery(
+            nyimbo.filter((nyimbo) => {
+              return nyimbo.name.includes(queryItem);
+            }),
+          )
+        : setSongQuery(
+            song.filter((item) => {
+              return item.name.includes(queryItem);
+            }),
+          );
+    },
+    [isChichewa, nyimbo, song],
+  );
+
+  // Fn() for song or Nyimbo item
+  const handleSelectedItem = (item) => {
     isChichewa
-      ? setNyimboQuery(
-          nyimbo.filter((nyimbo) => {
-            return nyimbo.name.includes(queryItem);
-          }),
-        )
-      : setSongQuery(
-          song.filter((item) => {
-            return item.name.includes(queryItem);
-          }),
-        );
+      ? navigation.navigate('Nyimbo', {
+          nyimboQuery: item.item,
+        })
+      : navigation.navigate('Song', {
+          songQuery: item.item,
+        });
   };
 
   React.useLayoutEffect(() => {
@@ -58,7 +72,7 @@ const useHomeHeader = () => {
         <MainTopHeader openDialog={showDialog} onSearch={searchItem} />
       ),
     });
-  }, [navigation, hearderTitle]);
+  }, [navigation, hearderTitle, showDialog, searchItem]);
 
   return [
     isChichewa,
@@ -68,6 +82,7 @@ const useHomeHeader = () => {
     songQuery,
     switchVision,
     whichVision,
+    handleSelectedItem,
   ];
 };
 

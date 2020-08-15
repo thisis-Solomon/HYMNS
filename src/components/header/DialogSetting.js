@@ -17,34 +17,34 @@ const DialogSettings = ({visible, dismiss, selectVision, vision}) => {
         <Dialog visible={visible} onDismiss={dismiss}>
           <Dialog.Content>
             {/*the hymn selection */}
-            <Card
-              style={styles.itemsCentered}
-              onPress={selectVision}>
+            <Card style={styles.itemsCentered} onPress={selectVision}>
               <Card.Content>
-  <Title>{vision}</Title>
+                <Title>{vision}</Title>
               </Card.Content>
             </Card>
 
             {/* increament & decr */}
             <View style={styles.flexRow}>
-              <Card.Content style={[styles.flexRow, styles.itemsCentered]}>
-                <IconButton
-                  icon="arrow-up-circle-outline"
-                  color={Colors.red500}
-                  size={25}
-                  onPress={() => console.log('Pressed')}
-                />
-                <Title>14</Title>
-                <IconButton
-                  icon="arrow-down-circle-outline"
-                  color={Colors.red500}
-                  size={25}
-                  onPress={() => console.log('Pressed')}
-                />
+              <Card.Content>
+                <View style={[styles.flexRow, styles.itemsCentered]}>
+                  <IconButton
+                    icon="arrow-up-circle-outline"
+                    color={Colors.red500}
+                    size={25}
+                    onPress={() => console.log('Pressed')}
+                  />
+                  <Title>14</Title>
+                  <IconButton
+                    icon="arrow-down-circle-outline"
+                    color={Colors.red500}
+                    size={25}
+                    onPress={() => console.log('Pressed')}
+                  />
+                </View>
               </Card.Content>
 
               {/* Dark Mode switch */}
-              <Card.Content style={{alignSelf: 'center'}}>
+              <Card.Content style={styles.itemSelf}>
                 <Switch />
               </Card.Content>
             </View>
@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   itemsCentered: {alignItems: 'center'},
+  itemSelf: {alignSelf: 'center'},
 });
 
 export default DialogSettings;
