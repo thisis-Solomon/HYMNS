@@ -384,207 +384,1624 @@ const Chichewa = [
   },
   {
     name: `NYIMBO 150`,
-    item: `150`,
+    item: `
+    1. Odala ndi onsewo
+    Oyera m’mtima mwawo;
+    Adzaonana ndi Mulungu,
+    Yesu ndiye wawo.
+    
+    2. Ambuye anachoka
+    Mumwamba, mwini moyo,
+    Wofatsa anakhala nafe,
+    Mfumu yachisomo.
+    
+    3. Mumtima wakufatsa
+    Anaconda kukhalabe
+    Asankha mtima wakuyera,
+    Ndiwo nyumba yake.
+    
+    4. Tifuna inu mbuye,
+    Mtininkhe mtima uwu
+    Wodzichepetsa, wakuyera,
+    Woyenera inu.`,
   },
   {
     name: `NYIMBO 151`,
-    item: `151`,
+    item: `
+    1. MNDIYANDIKITSE nanu.
+    Yesu,
+    Ndiyenderane nanu;
+    E, nditsamire panu, Yesu,
+    Panjira yonseyi.
+
+    2. Ndionetsere kuunika
+    Kokoma kwanu, Yesu!
+    Yabwino mbiri ndibukitse
+    Yokondweretsayo.
+
+    3. Chitsime chakuyera ine
+    Ndifanefane nacho;
+    Mundigwiritse ntchito zanu
+    E! zanu zokhazo.
+
+    4. Mulamulire mtima, Yesu,
+    Ndi chifuniro changa;
+    Muloŵe mwanga ngati Mfumu;
+    Mundimveretsedi.`,
   },
   {
     name: `NYIMBO 152`,
-    item: `152`,
+    item: `
+    1. “KHALA mwa Ine,” Yesu anatero;
+    Mawu abwino, koma Mbuye wanga
+    Sin’ngathe ndekha, mukhalitse ine
+    Mwa ’Nu ndikhale nawo moyotu.
+
+    2. “Khale mwa Ine,” munachotsa tsoka,
+    Mletse Satana anganyenge ine:
+    Mibvi yamoto yake muizime
+    M’mtimamo, ndikhulupirire ’Nu.
+
+    3. “Khala mwa Ine,” ndinu mwini mphamvu,
+    Mundithandize ine ndikafoka;
+    Mzimu Woyera andiululire
+    Zoona zanu m’mtima mwangamu.
+
+    4. “Khala mwa Ine,” ndinu mwini moyo.
+    Nthambi zouma zidulidwa m’mtengo:
+    Ine wopanda Inu ndifokanso,
+    Zipatso zikasoŵa msadze ’ne.
+
+    5. “Khala mwa Ine,” Mbuye, ndifunitsa;
+    Mzimu Woyera mlonge m’mtima
+    mwanga,
+    Akagonjetsetu machimo anga,
+    Mtima woyera andipatsenso.`,
   },
   {
     name: `NYIMBO 153`,
-    item: `153`,
+    item: `
+    1. AMBUYE mundisunge
+    Pafupi ndinutu;
+    Palibe malo pena
+    Popuma pansipa.
+    Adani andizinga,
+    Zoipa m’katimo;
+    Chifundo chanu Yesu
+    Chikonze m’mtimamo.
+
+    2. Ndikabisala mwanu
+    Ndilibe mantha ’yi;
+    Ndikasungidwa kwanu
+    Mumtima muti phee!
+    Ndi mphamvu yanu yokha
+    Ndiposa ’daniwo;
+    Chifundo chanu Mbuye
+    Chitchinjirize ’ne
+
+    3. Ndidzaonana nanu
+    Mokondwakondwadi.
+    Oyera mtima onse
+    Apenya Mbuyeyo.
+    Kumwamba n’dzaimbira
+    Kukoma kwanuku;
+    N’dzatama nthaŵi zonse
+    Chikondi chanucho.`,
   },
   {
     name: `NYIMBO 154`,
-    item: `154`,
+    item: `
+    1. KHALATU woyera, pempheratu
+    m’tseri;
+    Werengani Mawu masiku onsewo.
+    Uthenga omwe ali akufoka,
+    Madalitso ake ufunefunebe.
+
+    2. Khalani woyera, dziko laipadi;
+    Pemphera kolimba kwa Yesu
+    Mbuyathu.
+    Yang’anitsa Yesu ndi kumutsatira,
+    Kuti anthu ena aonenso Iye.
+
+    3. Khalatu woyera, akutsogozetu;
+    Usamtsogolere munjira zakozo.
+    Pokondwa ndi m’nsoni tsata Ambuyako
+    Khulupira Yesu ndi Mawu akewo.
+
+    4. Khalatu woyera, khalatu wofatsa;
+    Alilamulire ganizo lakolo.
+    Utatsogozedwa ndi Mzimu wakeyo,
+    Msanga udzagwira m’Mwamba
+    ntchito yake.`,
   },
   {
     name: `NYIMBO 155`,
-    item: `155`,
+    item: `
+    1. MUDZAZE Yesu mtima wanga ndi
+    chikondicho,
+    Ukhazikike pa Mulungu wosachokapo.
+
+    2. Mwa ine myatse moto wanu waku
+    yera mbuu,
+    Utenthemo zoipa zonse zidakhalamo.
+
+    3. Mubweretu nomwe ’Nu munatsika
+    kalelo;
+    Ndilira Inu mundidzaze mphamvu
+    yanuyo.
+
+    4. Ndikhazikike inetu, mumtima muli
+    mwai,
+    Ndi Yesu ndikondanetu, si kanthu
+    kena ai.`,
   },
   {
     name: `NYIMBO 156`,
-    item: `156`,
+    item: `
+    1. MBUYE ndamva mwawazira
+    Anthu ena madalitso;
+    Mvula yanu yawagwera;
+    Mbuye, ine mudalitse.
+    
+    Etu ine, etu ine,
+    Mbuye, ine mudalitse.
+
+    2. ’Tate, msandipitirire,
+    Ndimaipa mtima ine;
+    Ndiyenera munditaye,
+    Koma mukhululukire.
+
+    3. Yesu, msandipitirire
+    Kuti ndinu ndikondane;
+    Ndinalira Inu Mbuye,
+    Msandileke poitana.
+
+    4. Mzimu, msandipitirire,
+    Mupenyetsatu akhungu
+    Mboniyo ya Mbuye Yesu,
+    Mundipatse ine mphamvu.
+
+    5. Ndinagona mwa zoipa,
+    Ndinakunyozani ine,
+    Dziko lino ndinakonda,
+    Mbuye, mukhululukire.
+
+    6. Ha! chikondi cha Mulungu,
+    Mwazi wa Mbuyathu Yesu,
+    Chiyanjano cha Mzimuyo
+    Zonse zidzalemekeza.`,
   },
   {
     name: `NYIMBO 157`,
-    item: `157`,
+    item: `
+    1. AMBUYE, thandizenitu
+    Ndi mphamvu zanuzo;
+    Pantchito zathu zonsezi
+    Mthandize Mbuyathu.
+
+    2. Zochimwa zathu m’mtimamo
+    Tilira nazotu;
+    Mumtima mwathu muti zii;
+    Mthandize Mbuyathu.
+    
+    3. Mthandize Mbuye, timvetu,
+    Tikalandiredi
+    Zimene muperekazo
+    Zakudalitsa ’fe.
+
+    4. Kumwamba Yesu mthandize,
+    Tilibe wina ’yi:
+    M’moyo, muimfa mthandize,
+    Tikhale kwanuko.`,
   },
   {
     name: `NYIMBO 158`,
-    item: `158`,
+    item: `
+    1. POKHALA mtendere mu mtima-
+    ngamu,
+    Pamene ndisaukanso,
+    Pamene mabvuto ndi akuludi,
+    Moyo wangawu ngwabwinotu.
+
+    Moyowo
+    Ngwabwino,
+    Moyo wanga ulitu bwino.
+
+    2. Ngakhale Satana andizunza ’ne,
+    Chilipo chitonthozacho;
+    Chifundo cha Kristu anafera ’ne,
+    Kundipatsa ’ne moyo wake.
+
+    3. Uchimo unapachikidwa pomwe
+    Pamtanda wa Yesu Mbuye;
+    Machimo angawo anatherapo;
+    Mbuye wanga, ndiyamika ’Nu.
+
+    4. Ambuyathu, ndikhumba tsiku lija
+    Limene ndidzaona ’Nu;
+    Lipenga limveke, ndidzakondwatu
+    Pakukomana ndi Yesuyo.`,
   },
   {
     name: `NYIMBO 159`,
-    item: `159`,
+    item: `
+    1. NDILIRA ine kukayenda
+    M’njira ndi Mulungu;
+    Ndilira nyali ndikaone
+    Njira Ya kwa Yesu.
+
+    2. Chimwemwe chija chamumtima
+    Ndinalaŵa kale
+    Poyambutsata ine Yesu,
+    Chili kuti tere?
+
+    3. Kalelo m’mtima ndinakondwa,
+    Tere ndingolira,
+    Zokoma zonse zapadziko
+    Sizindikwanira.
+
+    4. Mubwere, Mzimu wa mpumulo,
+    Mundileze m’kati;
+    Ndidana nazo zoipazo
+    Zinakuchotsani.
+
+    5. Mundichotsere tchimo lonse
+    Ndinakonda kale,
+    E, muligwetse kuti ndinu
+    Mfumu mukakhale.
+
+    6. Mkatero ndidzayenda m’njira
+    Ndi Mulungu wanga,
+    Idzandiunikira nyali
+    Njira ya Kumwamba.`,
   },
   {
     name: `NYIMBO 160`,
-    item: `160`,
+    item: `
+    1. NDILIRA mtima wotamanda
+    Mlungu, ndi woyera,
+    E, mtima woyamika mwazi
+    Munandikhetsera.
+
+    2. Mtimatu wopirira ndi
+    Wofatsa mkati mwake,
+    Mumveka Mbuye Yesu yekha,
+    Ndiye Mfumu yake.
+
+    3. Ndilira mtima wakulapa
+    Ndi womvera Yesu,
+    Wosasiyana ndi Ambuye
+    Wakukhala m’mwemo.
+
+    4. E, mtima watsopano ndi
+    Wodzala ndi chikondi,
+    Wangwiro ndi wokoma, Mbuye,
+    Wonga wanu wonse.
+
+    5. Mkhalidwe wanu mundipatse
+    Ndifanane nanu
+    Mulembe m’mtima mwanga Dzina
+    La chikondi chanu.`,
   },
   {
     name: `NYIMBO 161`,
-    item: `161`,
+    item: `
+    1. Zoipa zangazi
+    Zidetsa m’mtimamu;
+    Mnditsuke, Yesutu,
+    Kutsuka koti mbuu!
+
+    2. Ndafoka inetu,
+    Ndalema m’mtimamu;
+    Andilimbitsa ’Ye,
+    Kulimba koti njo!
+
+    3. Zin’soŵa indedi
+    Zabwino m’mtimamu;
+    Ambuye, mdzazebe,
+    Kudzaza koti tho!`,
   },
   {
     name: `NYIMBO 162`,
-    item: `162`,
+    item: `
+    1. AMBUYE, ndifuna nditsukenitu;
+    Mukhalire ndine mumtimangamu;
+    Muthyole zonsezo zodetsa ’netu;
+    Musambitse ine, ndiyeretu mbuu!
+
+    Ndiyere mbuu! E, ndiyere mbuu!
+    Musambitse ine, ndiyeretu mbuu!
+
+    2. Ambuye, chotsani zonse zomwezo
+    Zakundisautsa mumtimangamu;
+    Ndileke zangazo zoipsa ’netu
+    Musambitse ine, ndiyeretu mbuu!
+
+    3. Kumwamba ndiona Ambuyangayo,
+    Mudzandithandiza, nditsate ’nemo;
+    Mudzandichotsera zoletsa ’netu;
+    Musambitse ine, ndiyeretu mbuu!
+
+    4. Chifukwa cha ichi ndipempheratu,
+    Ndidikira Inu Ambuyangayu;
+    Ndikhulupirira pa mwaziwo pyu!
+    Musambitse ine, ndiyeretu mbuu!`,
   },
   {
     name: `NYIMBO 163`,
-    item: `163`,
+    item: `
+    1. USAFUNE, chuma chokha,
+    Pena maseŵera okha,
+    Koma za Mulungu zokha
+    Zipambana zinazo.
+
+    2. Ukafuna kulemera,
+    Pempha chuma chosathera,
+    Ndiwo mtima wakuyera
+    Ndi wokonda Yesuyo.
+
+    3. Zosauka ubvomere,
+    Ndipo Yesu chaulere
+    Chikondano ndi mtendere
+    Aloŵetsa m’mtimamo.
+
+    4. Zonse umazinyadira
+    Udzaleka kusirira;
+    Uli nazo zokwanira
+    Pakupeza Yesuyo.
+
+    5. Mbiri yake ubukitse,
+    Anthu onse nuphuzitse,
+    Kwa Mulungu nufikitse
+    Osokera onsewo.
+
+    6. Yesu sakusiya konse;
+    Mphamvu, nzeru, chuma chonse
+    Akupatsa nsiku zonse;
+    Tsata Yesu yekhayo.`,
   },
   {
     name: `NYIMBO 164`,
-    item: `164`,
+    item: `
+    1. MKRISTU, ulimbike
+    M’ntchito yakeyo;
+    Yesu anafera
+    Anthu akewo.
+
+    2. Mphamvu zathu zonse
+    Tionetsenso,
+    Kuti kudziŵike
+    Tili akewo.
+
+    3. Mtima wakufatsa
+    Amakondako;
+    Ndipo anthu onse
+    Angatengero.
+
+    4. Mapemphero athu
+    Tikakwezebe,
+    Dzina lake lomwe
+    Tiyamike ’fe.
+
+    5. Limbikani nonse
+    Mpaka imfayo.
+    Ndipo Mfumu yathu
+    Idzakondwako.`,
   },
   {
     name: `NYIMBO 165`,
-    item: `165`,
+    item: `
+    1. GWIRA zintchito zako,
+    Pomva usiku udza;
+    Yamba mamaŵa ndithu
+    Potuluka dzuŵa.
+    Gwiranso m’msana monse
+    Dzuŵalo likatentha;
+    Gwira tsopano ntchito;
+    Msanga udzaleka.
+
+    2. Ntchito za Yesu gwira
+    Pomva usiku udza;
+    Lero lonseli gwira,
+    Bwino udzapuma.
+    Gwiratu tsiku lonse
+    Ntchito zakuyenera;
+    Gwira tsopano ntchito,
+    Tere udzaleka.
+
+    3. Mkristu gwiratu ntchito
+    Pomva usiku udza;
+    Dzuŵalo lopendeka
+    Tere lidzaloŵa.
+    Gwiranso ’dzulodzulo
+    Kutada mdima bii!
+    Tsono zintchito zonse
+    Zatha zonsezi.`,
   },
   {
     name: `NYIMBO 166`,
-    item: `166`,
+    item: `
+    1. TITHAŴIRENJI ifetu
+    Mphamvu za Yesu nzathunso.
+    Kristu atithangatatu.
+    M’nkhondo ya moyo wathuyo.
+
+    2. Yendani bwino m’njiramo
+    Ya kwa Mulungu wathuyo;
+    Kwezani maso kuli ’Ye;
+    Kristu ndi njira yomweyo
+
+    3. Nkhaŵa tilbe; Yesuyo
+    Atsogolera m’njiramo;
+    Tikhulupire Iyeyo,
+    Kristu ndi moyo wathuwo.
+
+    4. Tioperanji ifetu?
+    Ali pafupi Mbuyeyu;
+    Sangasinthike mtima ’yi;
+    Kristu akonda ifetu.`,
   },
   {
     name: `NYIMBO 167`,
-    item: `167`,
+    item: `
+    1. MBUYE, nditsate bwanjiko?
+    Ine ndikonde bwanjinso?
+    Bwanji kuyenda m’njiramo
+    Yonka Kumwamba kwawoko?
+
+    2. Kodi m’njiramo ndimvadi
+    Nsoni zoŵaŵa, nkhaŵazi
+    Ndi masauko, mingayi?
+    E, nkana izi n’tsatabe.
+
+    3. Anasauka Mbuyeyo,
+    Mwini nalola zonsezo;
+    Anatsiriza ntchitozo,
+    Osabwerera imfayo.
+
+    4. Ndikamayenda m’dimamo,
+    Mletse zodandaulazo;
+    Mundikumbutse mtandawo;
+    Zanga zichepa zonsezo.
+
+    5. Ine nditaya chumacho,
+    Ndikondweretse Mbuyeyo,
+    Thupi liopa mingayo,
+    Koma mlimbitse mtimawo.`,
   },
   {
     name: `NYIMBO 168`,
-    item: `168`,
+    item: `
+    1. YESU, afuna iwe unke kwawoko,
+    Loŵa m’njira yake yakuyerayeratu;
+    Anadzera m’Mwamba kutiperekezako;
+    Yamba msanga iwe kunka kwanuko.
+
+    Tsata, tsata, nditsatadi Yesu;
+    Iwetu, iwetu, ukatsatanso.
+    Tsata, tsata, nditsatadi Yesu;
+    Inu nonse mukatsate Mbuyeyo
+
+    2. Ngati umtsata Mpulumutsi wakoyo,
+    Udzakhaliranso kuli Mbuye wakoyo;
+    Adzapulumutsa thupi, mzimu wakonso,
+    M’mphamvu ndi chilango cha zoipazo.
+
+    3. Kunsi kudambo, pena m’mwamba
+    m’phirimo,
+    Pomwe pali Yesu ndidzayenda
+    yendapo:
+    Andiperekeza bwino m’njira yakeyo,
+    Kuli Mzinda wa Mulungu wangayo.`,
   },
   {
     name: `NYIMBO 169`,
-    item: `169`,
+    item: `
+    1. MBUYE, mwatiuza ’fe
+    Tizikhala mchere
+    Wokometsa onsewo
+    Akumanga kwathu.
+
+    Mcherewu ndi ifetu;
+    Mtifanize nanu,
+    Tikakope ndi chitsanzo
+    Onse akuchimwa.
+
+    2. Mbuye, mwatiuza ’fe
+    Tizikhala nyali
+    Yoonetsa onsewo
+    Njira yonka kwanu.
+
+    Nyali ndi ifetu;
+    Kuunika kwanu
+    Mutipatse tiŵalire
+    Osokera onse.
+
+    3. Tisasungaluke ’yi,
+    Tisasiye Yesu.
+    Tisabise nyaliyi
+    Pakuchita mantha.
+
+    Mcheretu ndi nyaliyi
+    Tizikhala tonse;
+    Mbuye, mtiyeretse m’mtima
+    Tikatero ndithu.`,
   },
   {
     name: `NYIMBO 170`,
-    item: `170`,
+    item: `
+    1. M’MAŴA tizifesa
+    Mbewu zakukoma,
+    Msana ndi usiku
+    Tizifesa momwe.
+    Nyengo yamasika
+    Tidzatema m’munda,
+    Tidzabwera tonse
+    Ndi zipatsozo.
+
+    Ndi zipatsozo
+    Ndi zipatsozo
+    Tidzabwera tonse
+    Ndi zipatsozo.
+
+    2. Tizifesa m’dzuŵa
+    Tizifesa m’mthunzi,
+    Sitiopa ife
+    Mtambo ndi chisanu.
+    Athatu masika
+    Ntchitozi zidzatha;
+    Tidzabwera tonse
+    Ndi zipatsozo.
+
+    3. Tingolira kaya,
+    Koma tidzafesa
+    Mbewu za Ambuye;
+    Ntchitoyo nja Yesu.
+    Adzachotsa msozi,
+    Adzatilandira,
+    Tidzabwera tonse
+    Ndi zipatsozo.`,
   },
   {
     name: `NYIMBO 171`,
-    item: `171`,
+    item: `
+    1. M’MENE umauka m’maŵa,
+    Sunagwire ntchitozo,
+    Sunayambe kukayenda,
+    Ugwadire Mlunguyo.
+    Pena uli kusekera,
+    Pena nkhaŵa m’mtimamo,
+    Wachimwemwe, wachisoni,
+    Uza Yesu zonsezo.
+
+    2. Wakuchezacheza naye
+    Ukagwira ntchitozo;
+    Pakukumbukira Yesu,
+    Nkhaŵa zidzachokanso
+    Ndi zapansi zikafuna
+    Kukudzaza m’mtimamo,
+    Utsogole kopemphera,
+    Uza Yesu zonsezo.
+
+    3. Ndi m’kutero udzadziŵa
+    Chifuniro chakecho;
+    Iye adzakuthandiza
+    Uthangate enanso:
+    Ndi ofoka ulimbitse,
+    Akulapa bwezatu;
+    Ndi za ntchito zake izi
+    Uza Yesu zonsezo.
+
+    4. Ndipo ngati ungolema,
+    Ulefuka m’dzulomo,
+    Ndi Satana akayesa
+    Kukukola m’mtimamo:
+    Wakufoka, wakuopa,
+    Penyetsetsa Iyeyo;
+    Udzakhazikika m’mtima
+    Pakumuza zonsezo.`,
   },
   {
     name: `NYIMBO 172`,
-    item: `172`,
+    item: `
+    1. HAYA! ’nzanga taonani
+    Yoonekayo
+    Yakumwamba iti: “Yesu
+    Alikudzako.”
+
+    Kanganani nkhondo yanu
+    Ndi mbendera mbuu!
+    Tibvomere: ‘Inde Mbuye
+    Mtithangatetu.”
+
+    2. A! mizimu yakuipa
+    Isautsabe,
+    Tikaniza zakuipa
+    Zotizinga ’fe.
+
+    3. Mdani adza nazo mphamvu,
+    Koma ifetu
+    Tidzamthetsa nkhondo yake
+    Timwingitsetu.
+
+    4. Yesu ati, “Ndidza msanga!”
+    Thangateni phee!
+    Mbweze mawu akulimba:
+    Tikanganabe.`,
   },
   {
     name: `NYIMBO 173`,
-    item: `173`,
+    item: `
+    1. ANATILEMBA Yesu tikagwire
+    nkhondo yake,
+    Natilimbitsa tipirire osaopa kanthu.
+    Kwa Satana n’ziwembu zake
+    Sitigonja konse;
+    Tiyenderana naye Mfumu
+    yathu yopambana.
+
+    2. Amaliwongo ochuluka amaloŵa
+    m’mtima
+    Nafuna kuipitsa usana ndi usiku;
+    Tikatsatabe Mfumu yathu
+    Sitidzagwa konse,
+    Pakuti atipatsa mphamvu
+    tipambane nazo.
+
+    3. Amatininkha zida zoteteza mtima,
+    Ndizo;
+    Kupempherabe, kukhulupirira ndi kufatsa;
+    Mtheradi, ndi lupanga ndilo
+    Mawu a Mulungu;
+    Pogwira zida zakezi sitilephera
+    konse.
+
+    4. Mafumu atiuza tikaletse ukapolo,
+    Ndi kumasula goli la anzathu akuopa
+    Tiyeni, tiŵauze za Mbuyathu Mpulumutsi
+    Nitiŵanditse mbiri yake
+    M’dziko lonse lathu.`,
   },
   {
     name: `NYIMBO 174`,
-    item: `174`,
+    item: `
+    1. LIMBA mtima mbale wanga
+    Usapunthwe m’njirayi;
+    Onatu nyenyezi ija
+    Ikutsogoleradi.
+    Tamveratu Mlungu yekha,
+    Chita zolungama ’we,
+    Yenda bwino, khulupirira
+    Mbuyeyo, Mbuyeyo,
+    Ndikuchita zakezi.
+    
+    2. Taya zako zochenjera,
+    Taya zamumdimanso;
+    Nthaŵi zonse khulupira,
+    Chita zolungamazo.
+    Usayang’anire wina
+    M’khondo yake yomweyi,
+    Koma m’zonse khulupirira
+    Mbuyeyo, Mbuyeyo,
+    Ndi kuchita zakezi.
+
+    3. Leka zakuipa zako,
+    Myambi yonse yoti bii,
+    Usakhulupire mommo:
+    Tamveradi Mbuyedi.
+    Adzadana nawe ena,
+    Ena adzakonda ’we;
+    Kweza maso, khulupirira
+    Mbuyeyo, Mbuyeyo
+    Ndikuchita zakezi.
+
+    4. Mawu ake atipatsa
+    Mphamvu ndi mtenderenso,
+    Bwino atitsogolera,
+    Tikhulupirira ’wo
+    Limba mtima, usapunthwe
+    M’njira yamumdimayi;
+    Yenda bwino, khulupirira
+    Mbuyeyo, Mbuyeyo,
+    Ndi kuchita zakezi.`,
   },
   {
     name: `NYIMBO 175`,
-    item: `175`,
+    item: `
+    1. POYESEDWA ine
+    Yesu mudzetu,
+    Mundipempherere
+    Ndisachimwetu.
+    Mukaona kuti
+    Ndilefukatu,
+    Mbuye mndilimbitse
+    Nazo mphamvutu.
+
+    2. Ndi zapansi pano
+    Ndikokedwadi,
+    Koma ndi chisoni
+    Mndiphunzitsedi;
+    Ndisaiŵalire
+    Za Getsemane,
+    Pena mtanda wanu
+    Yesu Mbuye ’Nu.
+
+    3. Mukandipweteka,
+    Ndipirirapo:
+    Nsembe yanga ndiyo,
+    Landirani ’yo.
+    Ndikachita mantha
+    Sindithaŵa ’yi:
+    Mtima udzalimba,
+    Ndidzaima nji!
+
+    4. Pakumalizidwa
+    Moyo wangawu,
+    Pomwalira ine,
+    Mudze Mbuyetu.
+    Ndidzadzipereka
+    M’manja mwanumo:
+    Mpulumutsi Yesu
+    Mndilandireko.`,
   },
   {
     name: `NYIMBO 176`,
-    item: `176`,
+    item: `
+    1. AMBUYE wa Kumwamba,
+    Mundithangatetu
+    Kuyenda bwino lomwe
+    M’ulendo unowu.
+    Kaŵiri ndi kaŵiri
+    Ndipunthwa m’njiramo
+    Mlimbitse mtima wanga,
+    Ndingatayikeko.
+
+    2. Ndikhumba Mzimu wanu
+    Kundiyeretsa mbuu!
+    Pang’ono ndi pang’ono
+    Mundiphunzitsetu;
+    Ndifuna nzeru zanu
+    Zakundifitsako
+    Kumwamba kuli Inu,
+    Ambuye wangayo.
+
+    3. Yochita ndi yodikha
+    Mupatse mphamvuyo,
+    Ndikhale wochenjera,
+    Wogwira ntchitozo.
+    Zoipa zanga zonse
+    Mufafanizezo,
+    Ndiyende nanu nokha
+    Masiku onsewo.`,
   },
   {
     name: `NYIMBO 177`,
-    item: `177`,
+    item: `
+    1. TIYENI Akhristu,
+    Nkhondo tigwire;
+    Yesu Mbuye wathu
+    Atitsogolera.
+    Mfumu yathu mwini
+    Atipatsa moyo;
+    Taonanitu mbendera
+    Yailoŵa nkhondo!
+
+    Tiyeni Akristu,
+    Nkhondo tiigwire;
+    Yesu Mbuye wathu
+    Atitsogolera
+
+    2. Nkhondo ya Satana
+    Idzakuthaŵani;
+    Tiyeni Akristu,
+    Kaipambaneni.
+    Idzanjenjemera
+    Mukapfu’litsatu;
+    Imbitsanitu anzathu,
+    Mau mukwezetse.
+
+    3. Mpingo wa Mulungu
+    Uli ngati nkhondo;
+    Titsagane nawo
+    Ana a Mulungu.
+    Sitipatukana,
+    Ndifetu amodzi;
+    Ch’yembekezo, chikondano,
+    Chonse ndi chimodzi.
+
+    4. Zonse zapadziko
+    Zidzamalizira,
+    Koma mpingo wake
+    Uli chikhalire;
+    Udzakhala ndithu
+    Mphamvu za Satana,
+    Yesu analonjezetsa,
+    Mawuwo sakana.
+
+    5. Tiyeni anzathu
+    Tizithandizana;
+    Imbirani nafe
+    Nyimbo zopambana
+    Kristu ayenera
+    Mphamvu ndi ulemu;
+    Komwe kuli Yesu.`,
   },
   {
     name: `NYIMBO 178`,
-    item: `178`,
+    item: `
+    1. TIYENI, Akristu inu,
+    Mumenyane nkhondo iyi,
+    Mukafoka nonse, koma
+    Yesu akulimbitsani.
+
+    2. Muyendanso kunka komwe,
+    Mugonjetse mdani wanu;
+    Musafoke, musaleme,
+    Musagone konse inu.
+
+    3. Musagonje, anthu inu,
+    Mtamiretu Yekha Mbuye;
+    Ipambana mphamvu yake,
+    Ya Mtsogoli wanu yemwe.
+
+    4. Mtima wanu wonse ndithu
+    Udzakhala ndi chimwemwe.
+    Zida zanu mbvale bwino
+    Zakudzera m’Mwamba momwe.
+
+    5. Limbikani inu nonse,
+    Msangalalo ngwanu nokha;
+    Musaope kanthu kena
+    Mumtamire Mbuye Yekha.
+
+    6. Tiyeni ku nkhondo iyi,
+    Mugonjetse zonse konko;
+    Muingitse mdani uja,
+    Muyendetse m’njira momwe.`,
   },
   {
     name: `NYIMBO 179`,
-    item: `179`,
+    item: `
+    1. AKRISTU limbikani,
+    Imani mtima nji!
+    Mbendera nyamulani,
+    Msatenthemere ’yi.
+    Wotsogolera wathu
+    Ndi Mwana wa Mulungu;
+    Adzagonjetsa onse
+    Adani athuwo.
+
+    2. Tigwire nkhondo yomwe
+    Ya Mbuye wathuyo;
+    Tileke zakuipa
+    Zokhala m’mtimamo.
+    Sitikwanira tokha
+    Kuleka zathu zomwe,
+    Koma Mbuyathu Yesu
+    Atithangatatu.
+
+    3. Tsopano timenyana
+    Ndi zakuipazi;
+    Pamene nkhondo yatha
+    Tidzanka kwathuko.
+    Yesu adzalandira
+    Ankhondo ake onse;
+    Adzakhalika naye
+    Kumwamba komweko.`,
   },
   {
     name: `NYIMBO 180`,
-    item: `180`,
+    item: `
+    1. MBUYE, ndapangana
+    M’njira yanuyi,
+    Kuti ndidzayenda
+    Osaleka ’yi.
+    Mundipatse mtima
+    Wopiriramo,
+    Wakukana zonse
+    Zondipingazo.
+
+    2. Mzimu wakuipa
+    Undiyesa ’ne;
+    Mundithangatire
+    Ku’thaŵitsabe.
+    Akandisautsa
+    Kum’dzi kunoku,
+    Muloŵetse mphamvu
+    M’mtima mwangamu.
+
+    3. Akathira nsembe
+    Ku mizimuyo,
+    Ndipenyera kwanu,
+    E, Kumwambako.
+    Tsoka ndi zonyenga
+    Za ufitizo,
+    Yesu mndilimbitse
+    Ndisaopezo.
+
+    4. Pena kumwa nawo,
+    Ndisateroko,
+    Pena kukaona
+    Gule woipa,
+    Pena kuwombeza
+    Sindifuna ’yi;
+    Yesu mundithandize
+    Kuzikanazi.
+
+    5. Ndinu mbusa wanga;
+    Mndithandizetu;
+    Ndisaipse nazo
+    Mtima wangawu.
+    Osaopa konse,
+    Osachimwa ’yi.
+    Mundiyendetse Yesu
+    M’njira yanuyi.`,
   },
   {
     name: `NYIMBO 181`,
-    item: `181`,
+    item: `
+    1. AULENDO, munka kuti Ndi
+    zindodo m’manja mwanu?
+    Paulendo tizipita;
+    Aitana Mbuye wathu;
+    Pamapiri, pamadambo
+    Tizipita komwe kwawo.
+    Tizipita komwe kwawo
+    Kuli dzikolo labwino,
+    Tizipita komwe kwawo
+    Kuli dzikolo labwino.
+
+    2. Kodi simuopa njira,
+    Inu anthu akufoka?
+    Ayi, atiperekeza
+    Mbuye wathu wotikonda.
+    Iye amakhala nafe,
+    Natitsogolera ife.
+    Atitsogolera ife
+    Kuli dzikolo labwino.
+    Atitsogolera ife
+    Kuli dzikolo labwino.
+
+    3. Mundiuze, aulendo,
+    Muli chiani m’Mwamba muja?
+    Atibvekako zoyera
+    Akorona natininkha;
+    Moyo, moyo atipatsa,
+    Kwa Mulungu tidzakhala.
+    Kwa Mulungu tidzakhala
+    Kuli dzikolo labwino,
+    Kwa Mulungu tidzakhala
+    Kuli dzikolo labwino.
+
+    4. Kodi inu, aulendo,
+    Ife titsagane nanu?
+    Inde, mudze inu nonse,
+    Mudze nafe paulendo.
+    Inde, mutiperekeze,
+    Yesu atilinda ife.
+    Yesu atilinda ife
+    Kuli dzikolo labwino,
+    Yesu atilinda ife
+    Kuli dzikolo labwino.`,
   },
   {
     name: `NYIMBO 182`,
-    item: `182`,
+    item: `
+    1. ANA akumwamba ndife,
+    Paulendo timaimba;
+    Timatama Mbuye wathu
+    Wa ulemerero wonse.
+
+    Tilikupita kwathu kuja
+    Munjira ya atate athu,
+    Amakondwera lero lomwe;
+    Tinka kuonana nawo.
+
+    2. Mbuye anatiitana
+    Kukagwira ntchito yake,
+    Kuitana anthu onse
+    Atsatenso njira yino.
+
+    3. Inde Mbuye, tibweradi,
+    Zathu zonse tizisiya,
+    Mtsogoleri wathu ndinu
+    Titsatabe inu nokha.`,
   },
   {
     name: `NYIMBO 183`,
-    item: `183`,
+    item: `
+    1. MBUYE munditsogolere,
+    Ndine mlendo m’dziko muno;
+    Ndikafoka mundikweze,
+    Mundisunge m’manja mwanu;
+    Mundidyetse, mundidyetse,
+    Sindingamve njalayo.
+
+    2. Mundimwetse madzi anu,
+    Andichize nthenda zanga;
+    Utsogole mtambo wanu,
+    Ndikadziŵe njira yanga;
+    Mpulumutsi, Mpulumutsi,
+    Munditchinjirizetu.
+
+    3. Ndikaloŵa m’mtsinje muja,
+    Mndichotsere mantha osne;
+    Mndiwolotse tsidya lija,
+    Ndikondwere nthaŵi zonse;
+    Nyimbo zanga, nyimbo zanga
+    Zidzalemekeza ’Nu.`,
   },
   {
     name: `NYIMBO 184`,
-    item: `184`,
+    item: `
+    1. NDIMAYENDA paulendo
+    Ndi yaminga njira yake;
+    Tsoka ndikapeza, koma
+    Ndinka kwa Atate;
+    Pena m’mtima mwanga mwada,
+    Pena andibvuta ‘dani,
+    Ndikatenga nkhaŵa, mantha,
+    Amadziŵako.
+
+    2. Ichi chindisangalatsa
+    M’mene nkhondo indigwira,
+    M’mene nsoni zazikulu
+    Zimanditsatira;
+    Mtima ukhazika m’mene
+    Kwathu kuja ndikumbuka
+    Kuti Mlungu ali ndine,
+    Andisungako.
+
+    3. Mbuye andipeza lero,
+    Andikonda, andisunga;
+    Adzapitikitsa mdani
+    Akamandibvuta.
+    E, ulendo wanga utha,
+    Tsono ine ndimwalira;
+    M’mene ndidzafika kwawo
+    And’landirako.
+
+    4. Komwe ndi chimwemwe ine
+    N’dzaonana ndi Atate,
+    N’dzagwadira ndi kumtama,
+    Amandikondabe.
+    Sakandisautsa kanthu
+    M’dziko lija lakukoma;
+    Adzandidalitsa Yesu,
+    Ndidzakondwako.`,
   },
   {
     name: `NYIMBO 185`,
-    item: `185`,
+    item: `
+    1. MUNDIŴALIRE m’njira mwangamo,
+    Mbuyanga ’Nu.
+    Kwada usiku, ndasokerako,
+    Mtsogoletu.
+    Phazi langali mndisungirenso,
+    Ndilonde Inu m’njira monsemo.
+
+    2. Sindidapempha kale Mbuye ’yi,
+    Mtsogole ’Nu;
+    Ndisankha ndine, koma leroli
+    Nditsatatu.
+    Ndidadzikuza osaopa ’yi;
+    Ambuye, msakumbuke zomwezi.
+
+    3. Ndi kale lonse mnandisunga ’ne;
+    Tsopanonso.
+    M’khwaŵa, paphiri, mundisungebe
+    M’tsogolomo.
+    Ndipo mamaŵa n’dzaonana ndi
+    Abale anga adafikadi.`,
   },
   {
     name: `NYIMBO 186`,
-    item: `186`,
+    item: `
+    1. TIYENI nonsenu okonda YESUYO,
+    Tiimbe nyimbo yabwino,
+    Tiimbe nyimbo yabwino,
+    Ku mpando wakewo,
+    Kumpando wakewo.
+    
+    Tiyeni pamodzi
+    Tilikupita Kumwamba;
+    Akristu tilikupita
+    Ku mzinda wa Mlungu.
+    
+    2. Ngakhale enawo aleke kwimbako,
+    Akristu ’fe tidzaimba,
+    Akristu ’fe tidzaimba,
+    Kumlemekeza ’Ye,
+    Kumlemekeza ’Ye.
+    
+    3. Akristu tonsefe, tikondwe m’Dzikoli
+    Koposa anthu enawo,
+    Koposa anthu enawo,
+    Tisanafikeko,
+    Tisanafikeko.
+    
+    4. Tiimbe mokondwa, misozi iume;
+    Poyenda kunka kwathuko,
+    Poyenda kunka kwathuko,
+    Kwa Mlungu wathuyo,
+    Kwa Mlungu wathuyo.`,
   },
   {
     name: `NYIMBO 187`,
-    item: `187`,
+    item: `
+    1. NDAMVATU kuti tifika komweko
+    Kuli Ambuye, Mtetezi wathuyo.
+    Ine, pakutha zobvuta zathuzo
+    Iye tidzamwona maso ndi maso.
+
+    Ndi Mbuyeyo tikhalamo,
+    Kupenyanso wokondatu;
+    Tidzakondwera, E, nthaŵi zonsezo
+    Ndicho chimwemwe ndi ulemutu.
+
+    2. Kaamba chisomo cha Mbuyathu
+    uyu,
+    Malo okoma tipeza m’Mwambamo;
+    Kumva mtetezi amene ndi Yesu,
+
+    Ndicho chimwemwe ndi chachikulutu.
+    3. Onse aliko takonda kalelo,
+    Kale napita kwa Yesu Mbuyawo;
+    Koma kumwona Mtetezi wathuyo
+    Ndicho chimwemwe choposa,
+    nchathucho.`,
   },
   {
     name: `NYIMBO 188`,
-    item: `188`,
+    item: `
+    1. UKATHA moyo wanga
+    Kumwamba kundichera;
+    Dzuŵalo ndimalira
+    Lafika lokomera.
+    Usiku m’nali mdima,
+    Tsopano mbanda kucha;
+    Kudzaŵalitsa ndithu
+    Ku Dziko la Mulungu.
+
+    2. Chitsime chachikondi
+    Ndi Yesu Mbuye wanga;
+    Ndalaŵa mtsinje pano
+    Ndzamwetsa ine m’Mwamba.
+    Komweko zidzakula
+    Chisomo ndi chifundo,
+    Pondiŵalira kuja
+    Ku Dziko la Mulungu.
+
+    3. A! Yesu Bwenzi langa
+    Inenso bwenzi lake,
+    Woipa ’ne alola
+    Ndiloŵe m’nyumba mwake;
+    Ndikhulupira Iye
+    Achotsa mphulupulu;
+    Kudzandiŵalitsira
+    Ku Dziko la Mulungu.
+
+    4. Ambuye andisunga
+    M’chifundo chachikulu;
+    Zisoni zisanduka
+    Chimwemwe cha Mulungu.
+    Dzanjalo ndilitama
+    Ndi mtima wachifundo,
+    Mpakatu kwaŵalitsa
+    Ku Dziko la Mulungu.`,
   },
   {
     name: `NYIMBO 189`,
-    item: `189`,
+    item: `
+    1. TIKAGWIDWA ndi chisoni,
+    Ikayendanso misozi,
+    Poliriratu abale,
+    Yesu mutimveretu.
+
+    2. Munabvala thupi lathu,
+    Munadziŵa masauko,
+    Mnalirira bwenzi lanu;
+    Yesu mutimveretu.
+
+    3. M’mene imfa yathu idza,
+    Mweya wathu ukaleka,
+    M’mene ife timwalira,
+    Yesu mutimveretu.
+
+    4. Mnamwalira Inu paja,
+    Mwazi wanu munakhetsa,
+    Koma Inu munadzuka;
+    Yesu mutimveretu.
+
+    5. Mtima ukachita nkhaŵa
+    Ndi zoipa zotimanga,
+    M’mene tikachita mantha,
+    Yesu mutimveretu.`,
   },
   {
     name: `NYIMBO 190`,
-    item: `190`,
+    item: `
+    1. KODI uli ndi chisoni
+    Choliritsa mtima wako?
+    Kweza maso, ndi Atate
+    Akumvetsa zonsezi.
+
+    2. Kodi umadandaula;
+    “Mbale wanga waferanji?”
+    Kumbukira Wakumtenga
+    Saphophonya konse ’yi.
+
+    3. Mbale wako unamkonda,
+    Koma Yesu amkondetsa;
+    Anamfuna nagomtenga;
+    Usammane Yesu’yi
+
+    4. Pakutsazikana nanu
+    Ndi potseka maso ake,
+    Imfa, bii! Anangogona
+    Koma adzadzukanso.
+
+    5. Usalire; Mpulumutsi
+    Analaŵa imfa Yekha;
+    Imfa yomwe nagonjetsa
+    Potuluka m’mandamo.
+
+    6. Chikondano sichifera;
+    Mbale wako udzamwona
+    Kwathu komwe; zipirira
+    Mpaka ukafikako.
+
+    7. Leroli chisoni chokha,
+    Tsiku lija kungokondwa;
+    Kweza maso osalira,
+    Yesu akukondadi.`,
   },
   {
     name: `NYIMBO 191`,
-    item: `191`,
+    item: `
+    1. NTCHITO yonse yakeyo
+    Yatha m’dzikoli linoli
+    Mlendo wafikatuko
+    Pokocheza leroli.
+
+    ’Tate, mwa kusunga kwanu
+    Timusiya mwana wanu.
+    ’Tate, mwa kusunga kwanu
+    Timusiya mwana wanu.
+
+    2. Yathatu misoziyo
+    Zobisika zonse mbee!
+    Aweruza bwinoko
+    Ndiye Wolungamayo.
+
+    3. Komwe Mbusa kwawoko
+    Atengera nkhosa zonse,
+    Zake asungiramo
+    Zosaopa kanthu konse.
+
+    4. Onse akulapawo
+    Ayang’ana mtanda wake;
+    Aphunzira komweko
+    Zonse za kukonda kwake.
+
+    5. Dothili kudothilo,
+    Pfumbili kupfumbi tere;
+    Mpaka adzadzukanso
+    Timusiya mumtendere.`,
   },
   {
     name: `NYIMBO 192`,
-    item: `192`,
+    item: `
+    1. MUMZINDA wa Mulungu
+    Moyera mulimo,
+    Ndiye amathu omwe
+    Olera ifewo;
+    Mitima yathu yomwe
+    Ikondwereratu,
+    Nikhala nawo Mzinda
+    Wakukongolawu.
+    
+    2. Akondwerera anthu
+    Zokoma zonsezi
+    Za midzi ya padziko
+    Lapansi lonseli;
+    Mtendere wake koma
+    Wa Mzinda wathuwo
+    Upambanditsa zonse
+    Zapansi pomwepo.
+    
+    3. Ndi nkhondo ikaleka
+    Kwa Mlungu komweko,
+    Ndi ukapolo watha,
+    Udani wathanso;
+    Ndi zakuopsa zonse
+    Ndi zosauka zii!
+    Ndi mwayi wa kwa Mlungu
+    Udzoza mutu tho!`,
   },
   {
     name: `NYIMBO 193`,
-    item: `193`,
+    item: `
+    1. Nlokoma dziko langa!
+    Ndiyang’anirapo,
+    Ndilira ndi chikondi
+    Poona dzinalo;
+    Pakumva mbiri yanu
+    Mumtima muti duu!
+    Ndi moyo ndi mtendere
+    Imalowetsamo.
+
+    2. Mokhala mokhamokha
+    Mokondwa momwemo;
+    Misozi yatha yonse,
+    Angosekeramo;
+    Panyezimira ponse,
+    Panyumba pati mbee!
+    Pamyala pakongola
+    Yoyala ponsepo.
+
+    3. Makomo afanana
+    Ndi myala yoti mbuu!
+    Ndi kristu wopambana
+    Aonekeramo;
+    Ndi mtanda woyeretsa
+    Wopachikidwapo,
+    Amamlambira Mfumu
+    Namlemekezanso.
+
+    4. Kulibe gombe, Nyanja,
+    Kulibe nthawi ‘yi,
+    Alendo alandira
+    Zoziziritsazi;
+    Pa mwala wa muyaya
+    Amanga nyumbayo,
+    Ndi omwe opambana
+    Adzakondweramo.
+
+    5. Nlokoma dziko langa!
+    Kopita onsewo
+    Mulungu awasankha,
+    Tifuna kunkako.
+    Ambuye, mutsogole
+    Ku dziko komweko;
+    Tidzakuimbirani
+    M’ulemerero.`,
   },
   {
     name: `NYIMBO 194`,
-    item: `194`,
+    item: `
+    1. NDIKONDWA kuganizirabe
+    Za Dziko la Mulungu;
+    Momwemo muli abwezitu
+    Okhala mumtendere.
+
+    Iwo salekana, iwo salekana,
+    Ayi salekana abwenzi omwewo.
+
+    2. Komweko akhala Yesuyo
+    Mtetezi wa inedi
+    Pakati pa ’womboledwawo;
+    Sadzamva kuŵaŵanso.
+
+    Iwo asekera, iwo asekera,
+    Inde asekera kumwona Yesuyo.
+
+    3. Mulibe zoipa m’Dzikolo,
+    Nzokomazo zabwino;
+    Ndi nthenda, imfa, misoziyi
+    Kumwamba kulibenso.
+
+    Dziko labwinotu, Dziko labwinotu,
+    Nawo mtenderewo, tikhumba ilotu.
+
+    4. Ndikonda kuganizirabe
+    Za Dziko la Mulungu,
+    Za zonse zotikondweretsamo,
+    Nzosathanso chikondi.
+
+    Ife tikondwera, ife tikondwera,
+    M’mene tidzampenya Ambuye wathuyo.`,
   },
   {
     name: `NYIMBO 195`,
-    item: `195`,
+    item: `
+    1. ’TATE wa Kumwambako,
+    Likayere Dzinalo,
+    Udzetu Ufumu wanu;
+    Chifuniro chanucho
+    Chichitike pansipa
+    Monga chachitika kwanu.
+
+    2. Mutipatse leroli
+    E, chakudya chathuchi
+    Tsiku n’tsiku tichilira.
+    Mukhululukiredi
+    Tchimo lathu, monga ’fe
+    Iwo adatichimwira.
+
+    3. Musatifikitsemo
+    Muli mayeserowo,
+    Koma mutipulumutse.
+    Wanu ndi ufumuwo,
+    Mphamvu ndi ulemunso
+    Kufikira nthaŵi zonse.`,
   },
   {
     name: `NYIMBO 196`,
-    item: `196`,
+    item: `
+    1. Mtima wanga ndikonzera,
+    Mbuye Yesu aitana;
+    Ati: “Mwana, tapemphera,
+    Ine sindidzakukana.”
+
+    2. Mbuye ndinu Mfumu yanga
+    Yolemera ndi yamphamvu;
+    Ndikapemphatu zambiri,
+    Simundimanira kanthu.
+
+    3. Ndikabwera nd katundu
+    Wa zoipa zanga zonse;
+    Mwazi wake wa Ambuye,
+    Udzandiyeretsa konse.
+
+    4. Mbuye ndinalema ine,
+    Mloŵe Inu m’mtima mwanga;
+    Mkhale m’mwemo mwini wake,
+    Mantha mwandichotsera ’ne.
+
+    5. Ndine mlendo pansi pano,
+    Mndilimbitse ndi chikondi;
+    Bwenzi mundilondolere
+    Njira pa ulendo wonse.
+
+    6. Mndidziŵitse ntchito yanga,
+    Mphamvu yake mundipatse;
+    Mundilimbikitse m’mtima
+    Ndikhale kwa Atate.`,
   },
   {
     name: `NYIMBO 197`,
-    item: `197`,
+    item: `
+    1. PEMPHERA m’mbanda kucha,
+    Pempheranso usana;
+    Pemphera m’dzulo momwe,
+    Pemphera ndi usiku.
+    Ndi mtima wonse idza,
+    Tulutsanso zachabe;
+    M’nyumbamo ugwadire
+    Ndi kukapempherabe.
+
+    2. Kumbuka ’bale ako
+    Ndi onse uŵakonda;
+    Pemphera ’dani ako
+    Amene akutonza.
+    Dzipempherere wekha
+    Mulungu akusunge;
+    Tchulanso popemphera
+    Dzinalo la Ambuye.
+
+    3. Akakusoŵa malo
+    Opempheramo m’tseri,
+    Komatu m’mtima mwako
+    Mwaloŵatu zoyera;
+    Anazilonga m’mwemo
+    Ndi Mzimu Wakuyera;
+    Zolingirira zija
+    Kwa Mlungu zidzakwera.
+
+    4. Tilibe madalitso
+    Akulingana n’lino
+    Atate atipatsa,
+    Kupempherabe bwino.
+    Ukamvatu chisoni,
+    Kwa Mbuye kapemphera.
+    Adzakusangalatsa,
+    Pemphero adzamvera.`,
   },
   {
     name: `NYIMBO 198`,
-    item: `198`,
+    item: `
+    1. POKUPEMPHERANI
+    Mundiphunzitse ’ne
+    Ndi Mzimu wanu Woyera,
+    Ndikayanjane nanu, Atate,
+    Ndi kukulemekezani ’Nu
+
+    2. Mdikumbutse zomwe
+    Munandichitira
+    Ndikakuyamikireni,
+    Ndikweze Dzina lomwe angelo
+    Aliimbira Kumwambako.
+
+    3. Mndimvetse chisoni
+    Pakuululira
+    Zochimwa zanga zambiri;
+    Mumtima ndi kupatsa mtendere
+    Mutachotsera zoipazo
+
+    4. Chikondi, chimwemwe,
+    Chifatso, chiletso,
+    Zipatso zonse za Mzimu
+    Mundibalitse, ndikafanane
+    Ndi Mbuyathu popempherapo.
+
+    5. Pakupempherera
+    Anzanga ndi onse
+    Akusokera mumdima,
+    M’wapulumutse ndi k’ŵachitira
+    Zomwe mufuna k’ŵapatsawo.
+
+    6. Poloŵa ndi Inu
+    M’chipinda cham’tseri,
+    Posonkhananso pamodzi,
+    Muyandikire nafe, Atate,
+    Mtibvomere, mtidalitsepo,`,
   },
   {
     name: `NYIMBO 199`,
-    item: `199`,
+    item: `
+    1. Bwenzi lathu ndiye Yesu
+    Atikonda ifetu;
+    Zifunsiro zathu zonse
+    Tipemphere mbuyathu.
+    Mtima phee tisowa tonse,
+    Zitibvuta chabeko,
+    Kaamba sitimanka konse
+    Kupemphera Mlunguyo.
+
+    2. Tili nazo zotiyesa,
+    Zitidetsa nkhawamu;
+    Tisadandaule chabe,
+    Timpemphere Mbuyathu.
+    Kodi tikaona wina
+    Timkhulupiriremo?
+    Yesu adziwa bwino,
+    Timpemphere yekhayo.
+
+    3. Kodi tikulema nazo
+    Zotiwawa m’mtimamo?
+    Atipulumutsa Yesu,
+    Timpemphere iyeyu.
+    Kodi adathawa ‘balo?
+    Pempheratu Bwenzilo;
+    Akusunga m’mkono mwake,
+    Udzapumuliramo.`,
   },
   {
     name: `NYIMBO 200`,
-    item: `200`,
+    item: `
+    1. ZOKOMA ndithu nthaŵizi
+    Kwa Mlungu zondifitsadi;
+    Kumpando wachifumuwo
+    Ndiuza zanga zonsezo.
+    Pobvuta ine mtimamo
+    Nditulapo pa Yesuyo;
+    Pakuyesedwa ndinkatu
+    Kwa Mbuye, sindikhala duu.
+    Pakuyesedwa ndinkatu
+    Kwa Mbuye, sindikhala duu.
+
+    2. Zokoma inde nthaŵizi
+    Zotama Dzina lomweli
+    La Yesu, ndiwoonayo
+    Wopatsa dalo lonseli
+    Ndilakalaka Iyeyu
+    Wofera ine pansitu;
+    Pakuda nkhaŵa ine bii
+    Nditchula Dzina lomweli,
+    Pakuda nkhaŵa ine bii
+    Nditchula Dzina lomweli.
+
+    3. Zokoma etu nthaŵizi
+    Ndicheza naye Mlungudi;
+    Koma kwathu m’Mwambamo
+    Kumwona ndi koposako.
+    Pobvula ine thupili,
+    Ndiloŵa Dziko lakedi;
+    Ndidzati nthaŵi yomweyo;
+    “Tsalani bwino pansipo.”
+    Ndidzati nthaŵi yomweyo;
+    “Tsalani bwino pansipo.”`,
   },
   {
     name: `NYIMBO 201`,
